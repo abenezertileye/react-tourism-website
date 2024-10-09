@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.nav-link.web {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: none;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link.mobile {
+  color: #FFBC00; /* Active link color */
+  border-bottom: 2px solid #FFBC00; /* Active link underline */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgba(255, 188, 0, 0.8); /* Hover color */
+}
+
+.nav-link.active.web {
+  color: #FFBC00; /* Active link color */
+  border-bottom: 2px solid #FFBC00; /* Active link underline */
+}
+
+.nav-link.active.mobile {
+  background-color: rgba(255, 188, 0, 0.5); /* Mobile active background color with opacity */
+  color: #fff; /* Text color when active */
+  border-radius: 5px; /* Optional: add border-radius for a nicer look */
+}
+
+
